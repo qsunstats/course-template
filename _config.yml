@@ -8,16 +8,6 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-exclude:
-  - vendor
-  - vendor/**
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - .github
-  - .bundle/**
-  - /home/runner/work/justclass/**
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
@@ -29,6 +19,15 @@ description: "EECS 700: Introduction to Program Synthesis"
 author: Sankha Narayan Guria
 url: https://qsunstats.github.io/course-template # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude:
+  - vendor
+  - vendor/**
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .github
+  - .bundle/**
+  - /home/runner/work/justclass/**
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.5.4
