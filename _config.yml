@@ -8,6 +8,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .github
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
@@ -17,8 +24,7 @@ title: "EECS 700: Introduction to Program Synthesis"
 tagline: "EECS 700: Introduction to Program Synthesis"
 description: "EECS 700: Introduction to Program Synthesis"
 author: Sankha Narayan Guria
-baseurl: '/course-template' # the subpath of your site, e.g. /blog
-url: 'https://qsunstats.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+url: https://qsunstats.github.io/course-template # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
